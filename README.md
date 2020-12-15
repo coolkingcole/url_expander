@@ -1,2 +1,2 @@
 # url_expander
-Multi-Threaded url expannder, it's fast and thats about all. I basically just moddified my code from my aws and google bucket brute tool to work with python3 and resolve shortened urls.
+Multi-Threaded url expannder, it's fast and thats about all. I basically just moddified my code from my aws and google bucket brute tool to work with python3 and resolve shortened urls. This tool will follow multiple redirects for example http://shorturl.at/ixLX8 is a shortendlink to another shortened link for this page. You can try the tool on that link and it should output `http://shorturl.at/ixLX8|https://github.com/coolkingcole/url_expander` until those links expire in a few weeks.
