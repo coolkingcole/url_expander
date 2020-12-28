@@ -1,13 +1,10 @@
 import queue
 import threading
-#import urllib2
 import time
 import sys
 from argparse import ArgumentParser
 
 import requests
-# TODO
-#import logging
 
 inqueue = queue.Queue()
 outqueue = queue.Queue()
